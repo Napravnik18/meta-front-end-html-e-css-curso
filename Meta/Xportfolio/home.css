@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header > img {
+    width: 25rem;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.89);
+    padding: 1rem;
+    width: 30vw;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.navbar a {
+    display: inline-block;
+    margin-left: 50px;
+    padding: 10px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background-color: gray;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.main h1 {
+    color: wheat;
+    padding: 3rem;
+}
+.main p {
+    background-image: url(dyedhair.jpg);
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 800px;
+    height: 463px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: sans-serif;
+    text-shadow: 
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 31px #fff,
+    0 0 55px rgb(128, 14, 170),
+    0 0 91px rgb(128, 14, 170),
+    0 0 100px rgb(128, 14, 170),
+    0 0 122px rgb(128, 14, 170),
+    0 0 140px rgb(128, 14, 170);
+}
+
+.footlogo {
+    width: 10rem;
+}
+
+.sub {
+    display: grid;
+    grid-template-columns: repeat(3, 16.5rem);
+    grid-gap: 10px;
+    justify-content: center;
+}
+
+.box {
+    color: rgb(189, 189, 189);
+    margin: 10px;
+    padding: 25px;
+    border-radius: 10px;
+    font-size: 150%;
+}
+
+.one {
+    background-image: url(owner.webp);
+    background-size: cover;
+}
+
+.two {
+    background-image: url(nails.webp);
+    background-size: cover;
+}
+
+.three {
+    background-image: url(saloon.jpg);
+    background-size: cover;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+footer > p {
+    color: white;
+}

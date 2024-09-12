@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector2</title>
+</head>
+<body>
+    <li><img src="sekiro.webp" style="width:150px;">
+   <p><b>Basic info about Sekiro</b></p>
+   <div>About</div>
+   <ul>
+    <li>Created in Japan</li>
+    <li>Souls like game made by from software and activision</li>
+    <li>This game is really fucking hard</li>
+   </ul>
+
+   <p><b>Info about publishers</b></p>
+   <div>Mainp/Subp</div>
+   <ul>
+    <li>Sekiro was published by activision in partnership with from software</li>
+    <li>Activision took the beloved Souls like format into a japanese perspective</li>
+   </ul>
+</body>
+</html>
+
+<style>
+    *{
+        list-style: none;
+    }
+    body{
+        color: black;
+        background-color: lightcoral;
+        font-family: Cambria;
+    }
+
+    div ~ ul {
+        background-color: wheat;
+        color: teal;
+        box-shadow: inset 1px 1px 3px black;
+        padding: 10px;
+    }
+</style>

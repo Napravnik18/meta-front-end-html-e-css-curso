@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categorias</title>
+</head>
+<body>
+    <header><img src="logo.png" width="92" height="200">
+    </header>
+    ><nav>
+        <ul>
+            <li><a href="home.html">home</a></li>
+            <li><a href="add.html">add</a></li>
+            <li><a href="categorias.html">categorias</a></li>
+            <li><a href="login.html">login</a></li>
+            <li><a href="about.html">about</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>encontre seu jogo ideal</h1>
+        <form method="post">
+        <div>
+            <label for="game_year"> data de lançamento</label><br>
+            <input type="date" name="game_year" id="game_year">
+        </div>
+        <div>
+            <label for="player_number"> Numero de jogadores</label><br>
+            <input type="range" name="player_number" id="player_number" min="1" max="10" value="1" oninput="this.nextElementSibling.value = this.value">
+            <output>1</output>
+        </div>
+        <div>
+            <label for="gaming_platform"> Plataforma</label><br>
+            <input id="gaming_platform" name="gaming_platform" list="plataforma">
+            <datalist id="plataforma">
+                <option value="PS"></option>
+                <option value="Xbox"></option>
+                <option value="PC"></option>
+            </datalist>
+        </div>
+        <div>
+            <button type="submit">buscar jogo</button>
+        </div>
+        </form>
+    </main>
+    
+</body>
+<footer>
+    <p>phantom gaming</p>
+</footer>
+</html>
